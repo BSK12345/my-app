@@ -92,6 +92,7 @@ table th{
   color: #fff;
   text-transform: uppercase;
 }
+
 @media only screen and (max-width:600px){
   tr th{
     min-width: unset;
