@@ -1,0 +1,29 @@
+.productContainer{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.product-wrapper{
+    margin: 10px;
+}
+
+.productDetails{
+    padding: 5px 1px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.add-product{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: lightgreen;
+    width: fit-content;
+    margin: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-product:hover{
+    background-color: rgb(154, 154, 186);
+}
