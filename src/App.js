@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import DataTable from './components/DataTable'
+import DataTable from './components/DataTable';
 const App = () => {
   return (
     <div className='App'>
@@ -9,4 +9,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

@@ -2,6 +2,7 @@
   text-align: center;
   background: rgb(105, 101, 101);
 }
+
 .container{
   display: flex;
   flex-direction: column;
@@ -9,12 +10,14 @@
   padding: 5px;
   gap: 10px;
 }
+
 .add-container{
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 5px;
 }
+
 .info-container{
  display: flex;
  flex-wrap: wrap;
@@ -32,27 +35,33 @@ button{
   box-sizing: border-box;
   border-radius: 5px;
 }
+
 button{
   font-weight: 600;
   padding: 10px 15px;
   cursor: pointer;
 }
+
 .add{
   background-color: blue;
   color: #fff;
   font-weight: 600;
 }
+
 .search-input{
   width: 200px;
 }
+
 .search-table-container{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 table{
   border-collapse: collapse;
 }
+
 table tr,
 table th{
   border: 1px solid #ddd;
